@@ -209,12 +209,13 @@
                     <span class="text-brand-amber font-bold text-sm tracking-widest uppercase">Our Services</span>
                     <h2 class="text-3xl sm:text-4xl font-black text-slate-900 mt-2">主要營業項目</h2>
                     <div class="w-16 h-1.5 bg-brand-yellow mx-auto mt-4 rounded-full"></div>
-                    <p class="text-slate-600 mt-4 text-base sm:text-lg">不論是堆高機出租、貨櫃裝卸、狹窄室內機台安裝定位，或是26噸卡車運輸，立程起重皆提供最完善專業的服務團隊。</p>
+                    <p class="text-slate-600 mt-4 text-base sm:text-lg">不論是堆高機出租、貨櫃裝卸、拖B工程、狹窄室內機台安裝定位，或是26噸卡車運輸，立程起重皆提供最完善專業的服務團隊。</p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <!-- Service 1 (更新為深色背景與工程黃高亮雙色 SVG) -->
-                    <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 group hover:-translate-y-1 flex flex-col justify-between">
+                <!-- 使用 Flex 布局自動居中：上排 2 個，下排 3 個 -->
+                <div class="flex flex-wrap justify-center gap-8">
+                    <!-- Service 1 -->
+                    <div class="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)] bg-slate-50 border border-slate-200 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 group hover:-translate-y-1 flex flex-col justify-between">
                         <div>
                             <div class="w-14 h-14 bg-brand-dark rounded-2xl flex items-center justify-center p-2.5 mb-6 group-hover:bg-brand-navy transition-colors shadow-inner">
                                 <svg class="w-full h-full" viewBox="0 0 24 24" fill="none">
@@ -241,7 +242,7 @@
                     </div>
 
                     <!-- Service 2 -->
-                    <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 group hover:-translate-y-1 flex flex-col justify-between">
+                    <div class="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)] bg-slate-50 border border-slate-200 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 group hover:-translate-y-1 flex flex-col justify-between">
                         <div>
                             <div class="w-14 h-14 bg-brand-yellow/20 rounded-2xl flex items-center justify-center text-brand-dark text-2xl mb-6 group-hover:bg-brand-yellow transition-colors">
                                 <i class="fa-solid fa-boxes-packing"></i>
@@ -258,8 +259,26 @@
                         </div>
                     </div>
 
-                    <!-- Service 3 -->
-                    <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 group hover:-translate-y-1 flex flex-col justify-between">
+                    <!-- Service 3: 拖 B 工程 -->
+                    <div class="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)] bg-slate-50 border border-slate-200 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 group hover:-translate-y-1 flex flex-col justify-between">
+                        <div>
+                            <div class="w-14 h-14 bg-brand-yellow/20 rounded-2xl flex items-center justify-center text-brand-dark text-2xl mb-6 group-hover:bg-brand-yellow transition-colors">
+                                <i class="fa-solid fa-trailer"></i>
+                            </div>
+                            <h3 class="text-xl font-black text-slate-900 mb-3">拖 B 工程作業</h3>
+                            <p class="text-slate-600 leading-relaxed text-sm mb-6">
+                                提供專業拖 B（拖車/板車）運輸與調度工程，針對重型機具、大型結構物及特殊規格貨品進行安全牽引與運輸。
+                            </p>
+                            <ul class="space-y-2.5 text-xs text-slate-700 font-medium">
+                                <li class="flex items-center"><i class="fa-solid fa-circle-check text-emerald-500 mr-2 text-sm"></i>大型重型機具拖B運送</li>
+                                <li class="flex items-center"><i class="fa-solid fa-circle-check text-emerald-500 mr-2 text-sm"></i>特殊規格與超長物件牽引</li>
+                                <li class="flex items-center"><i class="fa-solid fa-circle-check text-emerald-500 mr-2 text-sm"></i>專業綑綁固定，確保路途安全</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)] bg-slate-50 border border-slate-200 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 group hover:-translate-y-1 flex flex-col justify-between">
                         <div>
                             <div class="w-14 h-14 bg-brand-yellow/20 rounded-2xl flex items-center justify-center text-brand-dark text-2xl mb-6 group-hover:bg-brand-yellow transition-colors">
                                 <i class="fa-solid fa-arrows-to-dot"></i>
@@ -276,8 +295,8 @@
                         </div>
                     </div>
 
-                    <!-- Service 4 -->
-                    <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 group hover:-translate-y-1 flex flex-col justify-between">
+                    <!-- Service 5 -->
+                    <div class="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)] bg-slate-50 border border-slate-200 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 group hover:-translate-y-1 flex flex-col justify-between">
                         <div>
                             <div class="w-14 h-14 bg-brand-yellow/20 rounded-2xl flex items-center justify-center text-brand-dark text-2xl mb-6 group-hover:bg-brand-yellow transition-colors">
                                 <i class="fa-solid fa-truck-moving"></i>
@@ -508,7 +527,7 @@
                         </div>
                         <div>
                             <div class="text-xs text-slate-400 font-bold uppercase">核心營業項目</div>
-                            <div class="text-sm font-bold text-white">3-15噸堆高機/貨櫃裝卸/室內安裝/26噸卡車</div>
+                            <div class="text-sm font-bold text-white">3-15噸堆高機/貨櫃裝卸/室內安裝/26噸卡車/拖B工程</div>
                         </div>
                     </div>
                 </div>
